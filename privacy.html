@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nexora Play — Gizlilik Politikası</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5c5c5c;
+    --rule: #e2e2e2;
+    --accent: #b8860b;
+    --card: #f7f7f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131313;
+      --fg: #e8e8e8;
+      --muted: #a0a0a0;
+      --rule: #2e2e2e;
+      --accent: #d9ab3d;
+      --card: #1c1c1c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 72px; }
+  header { border-bottom: 2px solid var(--accent); padding-bottom: 20px; margin-bottom: 32px; }
+  h1 { font-size: 1.7rem; margin: 0 0 10px; letter-spacing: -0.01em; }
+  .meta { color: var(--muted); font-size: .9rem; margin: 0; }
+  .lede { font-size: 1.05rem; margin: 0 0 34px; }
+  h2 {
+    font-size: 1.15rem;
+    margin: 38px 0 12px;
+    padding-top: 18px;
+    border-top: 1px solid var(--rule);
+  }
+  h2 .n { color: var(--accent); margin-inline-end: 8px; font-variant-numeric: tabular-nums; }
+  h3 { font-size: 1rem; margin: 22px 0 6px; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 16px; padding-inline-start: 22px; }
+  li { margin-bottom: 8px; }
+  li > strong { font-weight: 600; }
+  .note {
+    background: var(--card);
+    border-inline-start: 3px solid var(--accent);
+    padding: 14px 18px;
+    margin: 20px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .note p:last-child { margin-bottom: 0; }
+  a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  a:hover { text-decoration-thickness: 2px; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: .88rem;
+  }
+  code {
+    background: var(--card);
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-size: .88em;
+    word-break: break-all;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Nexora Play — Gizlilik Politikası</h1>
+  <p class="meta">Yürürlük: 6 Eylül 2026 &middot; Sürüm 1.5 &middot; Dil: Türkçe</p>
+</header>
+
+<p class="lede">Nexora Play bir medya oynatıcısıdır. Gizliliğinize önem veriyoruz.</p>
+
+<h2><span class="n">1</span>Topladığımız Bilgiler</h2>
+<p>
+  Nexora Play'in hesap veya giriş sistemi yoktur. Geliştirici olarak kişisel verilerinizi
+  kendi sunucularımıza toplamayız, saklamayız veya satmayız.
+  <strong>Uygulamada reklam gösterilmez ve kullanım analizi (analytics) yapılmaz.</strong>
+</p>
+<p>Yerel olarak saklanan veriler:</p>
+<ul>
+  <li>Girdiğiniz oynatma listesi bilgileri (Xtream kullanıcı adı/şifresi, portal/MAC adresi, M3U bağlantıları)</li>
+  <li>Kullanıcı profilleri (ad, avatar, PIN)</li>
+  <li>İzleme geçmişi, favoriler ve indirilen içerikler</li>
+  <li>Radyo favorileriniz ve son dinlediğiniz istasyonlar</li>
+</ul>
+<p>
+  Bu veriler cihazınızın korumalı depolamasında tutulur; uygulamayı kaldırdığınızda
+  tamamı silinir.
+</p>
+
+<h2><span class="n">2</span>Üçüncü Taraf Hizmetleri</h2>
+<ul>
+  <li><strong>Oynatma listesi sağlayıcınız</strong></li>
+  <li><strong>TMDB</strong> (themoviedb.org): Film/dizi afişlerini ve bilgilerini göstermek için içerik başlıkları sorgu olarak gönderilir.</li>
+  <li><strong>OpenSubtitles</strong> (opensubtitles.com): Altyazı aradığınızda içerik başlığı sorgu olarak gönderilir. Yalnızca siz altyazı aramasını başlattığınızda kullanılır.</li>
+  <li><strong>radio-browser.info</strong>: Radyo bölümündeki istasyon dizinini sağlar. Yaptığınız arama sözcükleri ile tür/ülke seçimleriniz sorgu olarak gönderilir. Bu hizmet topluluk tarafından işletilen, ücretsiz ve açık bir dizindir; hesap gerektirmez.</li>
+  <li><strong>Yayın akışı (EPG) sağlayıcıları</strong>: Program rehberi dosyaları indirilir; bu isteklerde kişisel veri gönderilmez.</li>
+  <li><strong>Google Play Faturalandırması</strong></li>
+  <li><strong>Cihazınızın sesli yazma (konuşma tanıma) hizmeti</strong>: Sesli komut özelliğini kullandığınızda ses verisi, cihazınızda kurulu olan konuşma tanıma hizmetine iletilir. Çoğu Android cihazda bu hizmet Google tarafından sağlanır ve o hizmetin kendi gizlilik politikasına tabidir. Ayrıntı için 3. bölüme bakınız.</li>
+</ul>
+<div class="note">
+  <p>Uygulamada reklam ağı, analiz (analytics) veya izleme (tracking) bileşeni bulunmaz.</p>
+</div>
+
+<h2><span class="n">3</span>Mikrofon ve Ses</h2>
+<p>
+  Uygulama mikrofon iznini (<code>RECORD_AUDIO</code>) iki ayrı amaçla kullanır.
+  <strong>Hiçbir durumda ses kaydı oluşturulmaz, saklanmaz veya geliştiriciye gönderilmez.</strong>
+</p>
+<h3>a) Sesli komut</h3>
+<p>
+  Asistana konuşarak komut verdiğinizde mikrofon yalnızca siz sesli aramayı başlattığınız
+  anda ve konuşmanız bitene kadar açılır. Ses verisi, cihazınızda kurulu konuşma tanıma
+  hizmetine iletilir ve metne çevrilir; uygulama yalnızca sonuçtaki metni alır. Bu özelliği
+  hiç kullanmazsanız mikrofon bu amaçla hiç açılmaz.
+</p>
+<h3>b) Ses görselleştirme</h3>
+<p>
+  Radyo ve video oynatıcıdaki dalga/ritim animasyonları Android'in Visualizer bileşeniyle
+  çalışır. Bu bileşen ortamı dinlemez; yalnızca uygulamanın kendi çalan sesinin seviyesini
+  okur. Ancak Android, bu bileşen için de mikrofon iznini zorunlu tutar. Okunan veri
+  cihazdan dışarı çıkmaz.
+</p>
+<p>
+  Mikrofon iznini istediğiniz zaman sistem ayarlarından geri alabilirsiniz; uygulamanın
+  geri kalanı çalışmaya devam eder.
+</p>
+
+<h2><span class="n">4</span>Telefon Kumandası (isteğe bağlı)</h2>
+<p>
+  Telefonunuzu TV kumandası olarak kullanmak isterseniz açabileceğiniz bir özellik vardır.
+  <strong>Varsayılan olarak KAPALIDIR</strong> ve yalnızca Ayarlar bölümünden siz
+  açtığınızda çalışır.
+</p>
+<p>
+  Açtığınızda uygulama, yalnızca bulunduğunuz yerel ağ (ev Wi-Fi ağınız) üzerinde bir
+  bağlantı noktası açar ve telefonunuzdan gelen tuş komutlarını dinler. Bu bağlantı
+  internete açılmaz, geliştiriciye veya üçüncü taraflara hiçbir veri gönderilmez.
+  Özelliği kapattığınızda bağlantı noktası kapanır.
+</p>
+<p>
+  Aynı ağdaki başka kişiler bu bağlantıya ulaşabileceği için, güvenmediğiniz ortak ağlarda
+  özelliği kapalı tutmanızı öneririz.
+</p>
+
+<h2><span class="n">5</span>İzinler</h2>
+<p>
+  Uygulama; yayınları oynatmak için internet ve ağ durumu erişimi, arka planda
+  indirme/eşitleme yapabilmek için ön plan hizmeti izni ve bu işlemlerin durumunu
+  gösterebilmek için bildirim izni kullanır.
+</p>
+<p>
+  İndirilen içerikler uygulamaya özel korumalı alana yazıldığı için ayrıca depolama izni
+  istenmez.
+</p>
+<p>
+  Mikrofon izni 3. bölümde, telefon kumandasının ağ kullanımı 4. bölümde açıklanmıştır.
+</p>
+<p><strong>Uygulama reklam kimliği (Advertising ID) iznini istemez ve kullanmaz.</strong></p>
+
+<h2><span class="n">6</span>Çocuklar</h2>
+<p>
+  Nexora Play çocuklara yönelik değildir. Yetişkinlere uygun içerik, uygulama içinde
+  varsayılan olarak PIN ile kilitlidir.
+</p>
+
+<h2><span class="n">7</span>Veri Güvenliği ve Silme</h2>
+<p>
+  Yerel verileriniz cihazınızda tutulur ve ağ üzerinden gönderildiği yerlerde şifreli
+  bağlantılar (HTTPS) kullanılır.
+</p>
+<p>
+  <strong>Verilerinizin silinmesi:</strong> Uygulamayı cihazınızdan kaldırdığınızda yerel
+  verilerinizin tamamı silinir. Ayrıca
+  <a href="mailto:ayglkadr89@gmail.com">ayglkadr89@gmail.com</a> adresine yazarak
+  verilerinizin silinmesini talep edebilirsiniz.
+</p>
+
+<h2><span class="n">8</span>Değişiklikler ve İletişim</h2>
+<p>
+  Bu politikada değişiklik olursa bu sayfada yayımlanır ve sürüm numarası güncellenir.
+</p>
+<p>İletişim: <a href="mailto:ayglkadr89@gmail.com">ayglkadr89@gmail.com</a></p>
+
+<footer>
+  Nexora Play &copy; 2026. Tüm hakları saklıdır.
+</footer>
+
+</div>
+</body>
+</html>
